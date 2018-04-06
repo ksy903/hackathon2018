@@ -1,0 +1,100 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cordova-plugin-googleplus",
+        "scope": null,
+        "escapedName": "cordova-plugin-googleplus",
+        "name": "cordova-plugin-googleplus",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\Users\\Jae\\Desktop\\hackathon2018\\node_modules"
+    ]
+  ],
+  "_from": "cordova-plugin-googleplus@latest",
+  "_id": "cordova-plugin-googleplus@5.2.3",
+  "_inCache": true,
+  "_location": "/cordova-plugin-googleplus",
+  "_nodeVersion": "6.12.3",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/cordova-plugin-googleplus_5.2.3_1522657679581_0.15003410249878724"
+  },
+  "_npmUser": {
+    "name": "eddyverbruggen",
+    "email": "eddyverbruggen@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cordova-plugin-googleplus",
+    "scope": null,
+    "escapedName": "cordova-plugin-googleplus",
+    "name": "cordova-plugin-googleplus",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-googleplus/-/cordova-plugin-googleplus-5.2.3.tgz",
+  "_shasum": "beab188725b4a830d5759019d15736d80dc8db86",
+  "_shrinkwrap": null,
+  "_spec": "cordova-plugin-googleplus",
+  "_where": "C:\\Users\\Jae\\Desktop\\hackathon2018\\node_modules",
+  "cordova_name": "Google SignIn",
+  "dependencies": {},
+  "description": "Use your Google account to authenticate with the app.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "beab188725b4a830d5759019d15736d80dc8db86",
+    "tarball": "https://registry.npmjs.org/cordova-plugin-googleplus/-/cordova-plugin-googleplus-5.2.3.tgz",
+    "fileCount": 33,
+    "unpackedSize": 13851565
+  },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.5.0"
+    }
+  ],
+  "gitHead": "ef0a4cf5e5e2588cdf4d3fd2f38d5100c7dc4ddc",
+  "issue": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus/issues",
+  "keywords": [
+    "Google",
+    "Google SignIn",
+    "Google Sign In",
+    "GoogleSignIn",
+    "Google Login",
+    "Google Plus",
+    "Login",
+    "OAuth",
+    "Identity",
+    "Authentication",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-ios"
+  ],
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "eddyverbruggen",
+      "email": "eddyverbruggen@gmail.com"
+    }
+  ],
+  "name": "cordova-plugin-googleplus",
+  "optionalDependencies": {},
+  "platforms": [
+    "android",
+    "ios"
+  ],
+  "readme": "ERROR: No README data found!",
+  "repo": "https://github.com/EddyVerbruggen/cordova-plugin-googleplus.git",
+  "scripts": {},
+  "version": "5.2.3"
+}

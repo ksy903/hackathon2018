@@ -49,15 +49,7 @@
         <h1>PhoneGap - Testing Firebase</h1>
     </div>
 	
-	<script type="text/javascript" src="cordova.js"></script>
-    <script type="text/javascript" src="js/index.js"></script>
-    <script type="text/javascript">
-        app.initialize();
-    </script>
 	<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-auth.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/4.12.0/firebase-database.js"></script>
 	<script>
 	  // Initialize Firebase
 	  var config = {
@@ -70,27 +62,16 @@
 	  };
 	  firebase.initializeApp(config);
 	</script>
+	<script type="text/javascript" src="cordova.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript">
+        app.initialize();
+    </script>
 	
 	<script src="https://cdn.firebase.com/libs/firebaseui/2.7.0/firebaseui.js"></script>
 	<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.7.0/firebaseui.css" />
     
-	<script>
-		alert("Hi");
-		var uiConfig = {
-        signInSuccessUrl: 'https://hackathon2018-200317.firebaseapp.com/',
-        signInOptions: [
-          // Leave the lines as is for the providers you want to offer your users.
-          firebase.auth.GoogleAuthProvider.PROVIDER_ID,
-        ],
-        // Terms of service url.
-        tosUrl: '<your-tos-url>'
-      };
-
-      // Initialize the FirebaseUI Widget using Firebase.
-      var ui = new firebaseui.auth.AuthUI(firebase.auth());
-      // The start method will wait until the DOM is loaded.
-      ui.start('#firebaseui-auth-container', uiConfig);
-	</script>
+	
 </body>
 
 </html>

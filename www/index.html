@@ -49,29 +49,24 @@
         <h1>PhoneGap - Testing Firebase</h1>
     </div>
 	
-	<script src="https://www.gstatic.com/firebasejs/4.12.1/firebase.js"></script>
-	<script>
-	  // Initialize Firebase
-	  var config = {
-		apiKey: "AIzaSyBxKCOGXjXswfpaSoowkXOeGveRnbLabQg",
-		authDomain: "hackathon2018-200317.firebaseapp.com",
-		databaseURL: "https://hackathon2018-200317.firebaseio.com",
-		projectId: "hackathon2018-200317",
-		storageBucket: "hackathon2018-200317.appspot.com",
-		messagingSenderId: "40227347751"
-	  };
-	  firebase.initializeApp(config);
-	</script>
 	<script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
     </script>
-	
-	<script src="https://cdn.firebase.com/libs/firebaseui/2.7.0/firebaseui.js"></script>
-	<link type="text/css" rel="stylesheet" href="https://cdn.firebase.com/libs/firebaseui/2.7.0/firebaseui.css" />
-    
-	
+
+	<script>
+	window.plugins.googleplus.login(
+		{
+		},
+		function (obj) {
+		  alert(JSON.stringify(obj.email)); // do something useful instead of alerting
+		},
+		function (msg) {
+		  alert('error: ' + msg);
+		}
+	);
+	</script>
 </body>
 
 </html>

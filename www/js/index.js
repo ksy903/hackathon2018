@@ -35,16 +35,6 @@ var app = {
     // function, we must explicitly call 'app.receivedEvent(...);'
     onDeviceReady: function() {
         app.receivedEvent('deviceready');
-		window.plugins.googleplus.login(
-			{
-			},
-			function (obj) {
-			  alert(JSON.stringify(obj.email)); // do something useful instead of alerting
-			},
-			function (msg) {
-			  alert('error: ' + msg);
-			}
-		);
     },
     // Update DOM on a Received Event
     receivedEvent: function(id) {
